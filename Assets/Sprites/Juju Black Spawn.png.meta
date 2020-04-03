@@ -1,0 +1,1567 @@
+fileFormatVersion: 2
+guid: ea89278ea79d0d741a95d348426196f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8399620222506623094
+    second: Juju Black Spawn_0
+  - first:
+      213: -8558440582983503145
+    second: Juju Black Spawn_1
+  - first:
+      213: -456648808619276405
+    second: Juju Black Spawn_2
+  - first:
+      213: 1592898073604059641
+    second: Juju Black Spawn_3
+  - first:
+      213: -7102188140288471
+    second: Juju Black Spawn_4
+  - first:
+      213: -356353459057099296
+    second: Juju Black Spawn_5
+  - first:
+      213: -2460738185210125007
+    second: Juju Black Spawn_6
+  - first:
+      213: 2572108706325268174
+    second: Juju Black Spawn_7
+  - first:
+      213: 8790447033180322745
+    second: Juju Black Spawn_8
+  - first:
+      213: -5280430933434891030
+    second: Juju Black Spawn_9
+  - first:
+      213: -965014229884918121
+    second: Juju Black Spawn_10
+  - first:
+      213: 7917228539948799398
+    second: Juju Black Spawn_11
+  - first:
+      213: 1144787368382763959
+    second: Juju Black Spawn_12
+  - first:
+      213: 7857977634819070749
+    second: Juju Black Spawn_13
+  - first:
+      213: -3649930912201424179
+    second: Juju Black Spawn_14
+  - first:
+      213: 4352921243614804529
+    second: Juju Black Spawn_15
+  - first:
+      213: -6447173103104487252
+    second: Juju Black Spawn_16
+  - first:
+      213: -8339004445044127825
+    second: Juju Black Spawn_17
+  - first:
+      213: 2803841640853677926
+    second: Juju Black Spawn_18
+  - first:
+      213: -5859695395271705899
+    second: Juju Black Spawn_19
+  - first:
+      213: 4843807425700101708
+    second: Juju Black Spawn_20
+  - first:
+      213: 2952027134585976318
+    second: Juju Black Spawn_21
+  - first:
+      213: -8400191752478028044
+    second: Juju Black Spawn_22
+  - first:
+      213: -1969079430150409467
+    second: Juju Black Spawn_23
+  - first:
+      213: 1819998640231146691
+    second: Juju Black Spawn_24
+  - first:
+      213: -4228271423485912741
+    second: Juju Black Spawn_25
+  - first:
+      213: -3015562151843562783
+    second: Juju Black Spawn_26
+  - first:
+      213: 3490969060460312032
+    second: Juju Black Spawn_27
+  - first:
+      213: 4525994901664173184
+    second: Juju Black Spawn_28
+  - first:
+      213: -3541324087330031139
+    second: Juju Black Spawn_29
+  - first:
+      213: 7892617596226003617
+    second: Juju Black Spawn_30
+  - first:
+      213: 4053679068700322778
+    second: Juju Black Spawn_31
+  - first:
+      213: -964216570531944623
+    second: Juju Black Spawn_32
+  - first:
+      213: -3035130850573664498
+    second: Juju Black Spawn_33
+  - first:
+      213: -3397181209085941717
+    second: Juju Black Spawn_34
+  - first:
+      213: 5236481189026761052
+    second: Juju Black Spawn_35
+  - first:
+      213: -1932033082158841899
+    second: Juju Black Spawn_36
+  - first:
+      213: 5595386980491231685
+    second: Juju Black Spawn_37
+  - first:
+      213: -3049902938878844197
+    second: Juju Black Spawn_38
+  - first:
+      213: -8990896139586990755
+    second: Juju Black Spawn_39
+  - first:
+      213: -4470609089325406758
+    second: Juju Black Spawn_40
+  - first:
+      213: -8641208128324182826
+    second: Juju Black Spawn_41
+  - first:
+      213: -7654478242792499514
+    second: Juju Black Spawn_42
+  - first:
+      213: -2151944449811210352
+    second: Juju Black Spawn_43
+  - first:
+      213: -7802550220863803739
+    second: Juju Black Spawn_44
+  - first:
+      213: -2426512886857518005
+    second: Juju Black Spawn_45
+  - first:
+      213: -818952246982728123
+    second: Juju Black Spawn_46
+  - first:
+      213: 7985693866670707156
+    second: Juju Black Spawn_47
+  - first:
+      213: 6319251379777102082
+    second: Juju Black Spawn_48
+  - first:
+      213: 2070809965438552952
+    second: Juju Black Spawn_49
+  - first:
+      213: 2311627946367947481
+    second: Juju Black Spawn_50
+  - first:
+      213: 8915737230026343099
+    second: Juju Black Spawn_51
+  - first:
+      213: 6596782976826786698
+    second: Juju Black Spawn_52
+  - first:
+      213: -3140487167142158265
+    second: Juju Black Spawn_53
+  - first:
+      213: -4189378443064710338
+    second: Juju Black Spawn_54
+  - first:
+      213: 3913197924250455310
+    second: Juju Black Spawn_55
+  - first:
+      213: -5950400377993433858
+    second: Juju Black Spawn_56
+  - first:
+      213: 3902043977253336686
+    second: Juju Black Spawn_57
+  - first:
+      213: -6642405169168563469
+    second: Juju Black Spawn_58
+  - first:
+      213: -5052218882580504329
+    second: Juju Black Spawn_59
+  - first:
+      213: 7309362575221581663
+    second: Juju Black Spawn_60
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Juju Black Spawn_0
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 798
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670e1bad612719470800000000000000
+      internalID: 8399620222506623094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_1
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 798
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d23bf362af4a3980800000000000000
+      internalID: -8558440582983503145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_2
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 798
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b878427f358a9a9f0800000000000000
+      internalID: -456648808619276405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_3
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 798
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1f290cb5c1b1610800000000000000
+      internalID: 1592898073604059641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_4
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 798
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92625c6f894c6eff0800000000000000
+      internalID: -7102188140288471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed7b62ca6afd0bf0800000000000000
+      internalID: -356353459057099296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135af4978a3b9ddd0800000000000000
+      internalID: -2460738185210125007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec60534ad37f1b320800000000000000
+      internalID: 2572108706325268174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb799db001fdf970800000000000000
+      internalID: 8790447033180322745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_9
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae401affa0428b6b0800000000000000
+      internalID: -5280430933434891030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_10
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7962388bba49b92f0800000000000000
+      internalID: -965014229884918121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_11
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a59b39e865afdd60800000000000000
+      internalID: 7917228539948799398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_12
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 684
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b31fc3db0a13ef00800000000000000
+      internalID: 1144787368382763959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bda5886052d0d60800000000000000
+      internalID: 7857977634819070749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2448b6c27d85dc0800000000000000
+      internalID: -3649930912201424179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_15
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a79eceecea86c30800000000000000
+      internalID: 4352921243614804529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_16
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca01108a83a0786a0800000000000000
+      internalID: -6447173103104487252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_17
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7cdb0a3a7e54c80800000000000000
+      internalID: -8339004445044127825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_18
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6672881fd1f39e620800000000000000
+      internalID: 2803841640853677926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_19
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da76d0851e2eaea0800000000000000
+      internalID: -5859695395271705899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_20
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 570
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ef049a039a83340800000000000000
+      internalID: 4843807425700101708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5bf44d905b7f820800000000000000
+      internalID: 2952027134585976318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_22
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe81647b168c6b80800000000000000
+      internalID: -8400191752478028044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_23
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5033b5fd0bc6ca4e0800000000000000
+      internalID: -1969079430150409467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_24
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4ebaade1fe14910800000000000000
+      internalID: 1819998640231146691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_25
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59df2dea892255c0800000000000000
+      internalID: -4228271423485912741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_26
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea704533329626d0800000000000000
+      internalID: -3015562151843562783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_27
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5bd925dd9627030800000000000000
+      internalID: 3490969060460312032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_28
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 456
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c0ce022609fce30800000000000000
+      internalID: 4525994901664173184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9b82c5180badec0800000000000000
+      internalID: -3541324087330031139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_30
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a26c0b03e5388d60800000000000000
+      internalID: 7892617596226003617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_31
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adba15bb2af814830800000000000000
+      internalID: 4053679068700322778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_32
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157e5e2432a6e92f0800000000000000
+      internalID: -964216570531944623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_33
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f3abc729c01e5d0800000000000000
+      internalID: -3035130850573664498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_34
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28ecca70b9cad0d0800000000000000
+      internalID: -3397181209085941717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_35
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5984f8b5e7bba840800000000000000
+      internalID: 5236481189026761052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_36
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 342
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df7e9be52a0035e0800000000000000
+      internalID: -1932033082158841899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1860920dec6ad40800000000000000
+      internalID: 5595386980491231685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_38
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2e4b8af619ca5d0800000000000000
+      internalID: -3049902938878844197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_39
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d8c7bc89be93380800000000000000
+      internalID: -8990896139586990755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_40
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5602538b435f1c0800000000000000
+      internalID: -4470609089325406758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_41
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcd4098df2441880800000000000000
+      internalID: -8641208128324182826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_42
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c69565e794d5c590800000000000000
+      internalID: -7654478242792499514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_43
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f11a4ace1c222e0800000000000000
+      internalID: -2151944449811210352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_44
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 228
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae644fe9e5c7b390800000000000000
+      internalID: -7802550220863803739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4433f7b26b435ed0800000000000000
+      internalID: -2426512886857518005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_46
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5462696354f72a4f0800000000000000
+      internalID: -818952246982728123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_47
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d15ceff242e2de60800000000000000
+      internalID: 7985693866670707156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_48
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201e20a26ad72b750800000000000000
+      internalID: 6319251379777102082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_49
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bcd4321befcbc10800000000000000
+      internalID: 2070809965438552952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_50
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d29024ae5d841020800000000000000
+      internalID: 2311627946367947481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_51
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2027ae5cf0bbb70800000000000000
+      internalID: 8915737230026343099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_52
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 114
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83ca1a8a2b7c8b50800000000000000
+      internalID: 6596782976826786698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740a1dc7f8fba64d0800000000000000
+      internalID: -3140487167142158265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_54
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3be27790865cd5c0800000000000000
+      internalID: -4189378443064710338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_55
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d8eb277c87e4630800000000000000
+      internalID: 3913197924250455310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_56
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efce95ef16eeb6da0800000000000000
+      internalID: -5950400377993433858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_57
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66332ac258d62630800000000000000
+      internalID: 3902043977253336686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_58
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f24d7d01bf61d3a0800000000000000
+      internalID: -6642405169168563469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_59
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0a440b1b9e2e9b0800000000000000
+      internalID: -5052218882580504329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juju Black Spawn_60
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 0
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57ed961982107560800000000000000
+      internalID: 7309362575221581663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
