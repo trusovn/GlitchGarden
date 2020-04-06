@@ -24,8 +24,9 @@ public class AttackerSpawner : MonoBehaviour
         {
             if (spawn)
             {
-                int prefabYPosition = Random.Range(spwanYMin, spwanYMax + 1);
-                var attacker = Instantiate(attackerPrefab, new Vector2(spawnXPosition, prefabYPosition), Quaternion.identity);
+                var prefabYPosition = Random.Range(spwanYMin, spwanYMax + 1);
+                var yOffset = attackerPrefab.GetComponent<Attacker>().SpriteYOffset;
+                var attacker = Instantiate(attackerPrefab, new Vector2(spawnXPosition, prefabYPosition + yOffset), Quaternion.identity);
                 attacker.GetComponent<SpriteRenderer>().sortingLayerName = $"Lane {prefabYPosition}";
             }
             yield return new WaitForSeconds(Random.Range(1 / (spawnPerSecond + spawnRandomFactor), 1 / (spawnPerSecond - spawnRandomFactor)));

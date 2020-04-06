@@ -6,8 +6,11 @@ public class Attacker : MonoBehaviour
 {
     [Range(0, 5)]
     [SerializeField] float moveSpeed = 1;
+    [SerializeField] float spriteYOffset = 0;
 
     bool spawned = false;
+
+    public float SpriteYOffset { get => spriteYOffset; }
 
     public void ObjectSpawned()
     {
