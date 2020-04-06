@@ -44,6 +44,21 @@ TagManager:
   - name: Characters
     uniqueID: 3967799255
     locked: 0
+  - name: Lane 5
+    uniqueID: 2755855565
+    locked: 0
+  - name: Lane 4
+    uniqueID: 4074842759
+    locked: 0
+  - name: Lane 3
+    uniqueID: 832981667
+    locked: 0
+  - name: Lane 2
+    uniqueID: 2927160441
+    locked: 0
+  - name: Lane 1
+    uniqueID: 531765735
+    locked: 0
   - name: Environment
     uniqueID: 1952010113
     locked: 0

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    [SerializeField] LevelLoader levelLoader;
+    [SerializeField] LevelLoader levelLoader = default;
 
     static bool controllerInitialized;
 
