@@ -6,7 +6,12 @@ public class DefenderSpawner : MonoBehaviour
     
     private void OnMouseDown()
     {
+        Instantiate(defender, GetCellCoordinatesFromMouseClick(), Quaternion.identity);
+    }
+
+    private Vector2 GetCellCoordinatesFromMouseClick()
+    {
         var position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Instantiate(defender, new Vector2(position.x, position.y), Quaternion.identity);
+        return new Vector2(Mathf.RoundToInt(position.x), Mathf.RoundToInt(position.y));
     }
 }
