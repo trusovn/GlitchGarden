@@ -6,7 +6,7 @@ public class DefenderSpawner : MonoBehaviour
     
     private void OnMouseDown()
     {
-        Instantiate(defender, GetCellCoordinatesFromMouseClick(), Quaternion.identity);
+        Instantiate(defender, GetCellCoordinatesFromMouseClick() + defender.DefenderSpriteOffset, Quaternion.identity);
     }
 
     private Vector2 GetCellCoordinatesFromMouseClick()
