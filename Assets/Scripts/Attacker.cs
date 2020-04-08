@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Attacker : MonoBehaviour
 {
@@ -9,12 +7,19 @@ public class Attacker : MonoBehaviour
     [SerializeField] float spriteYOffset = 0;
 
     bool spawned = false;
+    bool canMove = true;
 
     public float SpriteYOffset { get => spriteYOffset; }
+    public bool CanMove { get => canMove; set => canMove = value; }
 
     public void ObjectSpawned()
     {
         spawned = true;
+    }
+
+    public bool IsSpawned()
+    {
+        return spawned;
     }
 
     public void SetMoveSpeed(float moveSpeed)
@@ -24,7 +29,7 @@ public class Attacker : MonoBehaviour
 
     void Update()
     {
-        if (spawned)
+        if (spawned && canMove)
         {
             transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
         }
