@@ -2,21 +2,36 @@
 
 public class VisualSoundCharacterEffects : MonoBehaviour
 {
-    Attacker m_Attacker;
+    [SerializeField] ParticleSystem deathParticleSystem = default;
+    
+    Attacker attacker;
+    Animator animator;
 
     private void Start()
     {
-        m_Attacker = GetComponent<Attacker>();
+        attacker = GetComponent<Attacker>();
+        animator = GetComponent<Animator>();
     }
 
     public void PlayDamageEffects()
     {
-        GetComponent<Animator>().SetTrigger("Damage");
-        m_Attacker.CanMove = false;
+        animator.SetTrigger("Damage");
+        attacker.CanMove = false;
+    }
+
+    public void PlayDeathEffects()
+    {
+        animator.SetTrigger("Death");
+        attacker.CanMove = false;
+    }
+
+    public void PlayDeathPS()
+    {
+        deathParticleSystem.Play();
     }
 
     public void DagameAnimationEnds()
     {
-        m_Attacker.CanMove = true;
+        attacker.CanMove = true;
     }
 }

@@ -1712,21 +1712,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lizard
       objectReference: {fileID: 0}
-    - target: {fileID: 6450643411215862429, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6450643411215862429, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6450643411215862429, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71cd3b8fdfd54c04da0abb865ed0fa47, type: 3}
 --- !u!1001 &6963127897415252629

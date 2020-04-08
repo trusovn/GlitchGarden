@@ -3,6 +3,7 @@
 public class Health : MonoBehaviour
 {
     [SerializeField] int healthPoints = 10;
+    [SerializeField] float timeForDestroyingGO = 5;
 
     VisualSoundCharacterEffects visualSoundCharacterEffects;
 
@@ -31,6 +32,8 @@ public class Health : MonoBehaviour
 
     void Die()
     {
-        Destroy(gameObject);
+        visualSoundCharacterEffects.PlayDeathEffects();
+        gameObject.GetComponent<Collider2D>().enabled = false;
+        Destroy(gameObject, timeForDestroyingGO);
     }
 }
