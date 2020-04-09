@@ -115,3 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a164984e52459f468d1837c0411b1a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defenderSpriteOffset: {x: 0, y: 0}
+  attackProjectile: {fileID: 0}
+  projectileSpawnOffset: {x: 0, y: 0}
+  starCost: 50

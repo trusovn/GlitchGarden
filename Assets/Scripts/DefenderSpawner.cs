@@ -2,8 +2,13 @@
 
 public class DefenderSpawner : MonoBehaviour
 {
-    [SerializeField] Defender defender = default;
+    Defender defender;
     
+    public void SetSelectedDefender(Defender defender)
+    {
+        this.defender = defender;
+    }
+
     private void OnMouseDown()
     {
         Instantiate(defender, GetCellCoordinatesFromMouseClick() + defender.DefenderSpriteOffset, Quaternion.identity);

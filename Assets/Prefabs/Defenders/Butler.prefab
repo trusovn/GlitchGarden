@@ -33,6 +33,11 @@ PrefabInstance:
       propertyPath: defenderSpriteOffset.y
       value: 0.145
       objectReference: {fileID: 0}
+    - target: {fileID: 3814191376324710091, guid: 6ef297e286643474bae9157873a1c72e,
+        type: 3}
+      propertyPath: starCost
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5190852064034933744, guid: 6ef297e286643474bae9157873a1c72e,
         type: 3}
       propertyPath: m_Controller

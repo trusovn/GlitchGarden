@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1371711345654673758
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1294172059741858728, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.094
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294172059741858728, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4022330437721070959, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: m_Name
+      value: Cactus Menu Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369207888348255833, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369207888348255833, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369207888348255833, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369207888348255833, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369207888348255833, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369207888348255833, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369207888348255833, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369207888348255833, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369207888348255833, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369207888348255833, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369207888348255833, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6848766255648415963, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: defender
+      value: 
+      objectReference: {fileID: 5190852064034933751, guid: 6ef297e286643474bae9157873a1c72e,
+        type: 3}
+    - target: {fileID: 7536192894701378157, guid: afaf81e72cbdd174f8841a4798b8402f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3494450213032369641, guid: acf35d22f7e2dc641a2891ac1ce01957,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: afaf81e72cbdd174f8841a4798b8402f, type: 3}
