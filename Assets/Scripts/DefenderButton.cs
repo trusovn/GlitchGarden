@@ -2,7 +2,7 @@
 
 public class DefenderButton : MonoBehaviour
 {
-    [SerializeField] Defender defender;
+    [SerializeField] GameObject defender;
 
     Color inactiveColor;
     SpriteRenderer buttonImageRenderer;
@@ -21,7 +21,7 @@ public class DefenderButton : MonoBehaviour
             button.SetInactiveColor();
         }
         SetColor(Color.white);
-        FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defender);
+        FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defender.GetComponent<Defender>());
     }
 
     private void SetColor(Color color)

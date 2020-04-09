@@ -1,4 +1,4 @@
-﻿/// Courtesy to https://forum.unity.com/threads/how-to-link-scenes-in-the-inspector.383140/ ///
+﻿/// Taken from https://forum.unity.com/threads/how-to-link-scenes-in-the-inspector.383140/ ///
 using UnityEditor;
 using UnityEngine;
 

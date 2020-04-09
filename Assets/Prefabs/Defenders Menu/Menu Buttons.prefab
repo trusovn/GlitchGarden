@@ -124,7 +124,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
@@ -140,15 +140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus Menu Button
       objectReference: {fileID: 0}
-    - target: {fileID: 5477213514680865157, guid: 90a76ba043c4ef543872c31f8ab93fd1,
-        type: 3}
-      propertyPath: defender
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6451984891099195143, guid: 90a76ba043c4ef543872c31f8ab93fd1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6451984891099195143, guid: 90a76ba043c4ef543872c31f8ab93fd1,
         type: 3}
@@ -223,7 +218,7 @@ PrefabInstance:
     - target: {fileID: 5369207888348255833, guid: afaf81e72cbdd174f8841a4798b8402f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5369207888348255833, guid: afaf81e72cbdd174f8841a4798b8402f,
         type: 3}

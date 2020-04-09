@@ -153,4 +153,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f96e6385ed6db84da293fa8f0e54b4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defender: {fileID: 0}
+  defender: {fileID: 6654975098124048563, guid: 3b975bb1f2b15d64ba840111e1325ead,
+    type: 3}
