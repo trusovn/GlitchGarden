@@ -81,7 +81,7 @@ PrefabInstance:
         type: 3}
       propertyPath: defender
       value: 
-      objectReference: {fileID: 5190852064034933751, guid: 6ef297e286643474bae9157873a1c72e,
+      objectReference: {fileID: 262899786263608606, guid: 6ef297e286643474bae9157873a1c72e,
         type: 3}
     - target: {fileID: 7536192894701378157, guid: afaf81e72cbdd174f8841a4798b8402f,
         type: 3}
