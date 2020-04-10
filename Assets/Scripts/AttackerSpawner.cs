@@ -18,7 +18,8 @@ public class AttackerSpawner : MonoBehaviour
     {
         StartCoroutine(SpawnAttackers());
     }
-    IEnumerator SpawnAttackers()
+
+    IEnumerator SpawnAttackers() // todo: spawn new attackers with orderInLayer incrementing so faster ones will draw over those they overtake.
     {
         while (true)
         {
