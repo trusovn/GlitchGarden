@@ -2,7 +2,7 @@
 
 public class DefenderButton : MonoBehaviour
 {
-    [SerializeField] GameObject defender;
+    [SerializeField] GameObject defender = default;
 
     Color inactiveColor;
     SpriteRenderer buttonImageRenderer;

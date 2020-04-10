@@ -4,12 +4,12 @@ public class Attacker : MonoBehaviour
 {
     [Range(0, 5)]
     [SerializeField] float moveSpeed = 1;
-    [SerializeField] float spriteYOffset = 0;
+    [SerializeField] Vector2 attackerOffset = default;
 
     bool spawned = false;
     bool canMove = true;
 
-    public float SpriteYOffset { get => spriteYOffset; }
+    public Vector2 AttackerOffset { get => attackerOffset; }
     public bool CanMove { get => canMove; set => canMove = value; }
 
     public void ObjectSpawned()

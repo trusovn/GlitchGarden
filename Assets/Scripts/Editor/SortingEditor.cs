@@ -19,7 +19,7 @@ public class SortingEditor : Editor
         var selected = EditorGUILayout.Popup("Sorting Layer", sorting.SortingValue, layers);
         if (GUI.changed)
         {
-            sorting.UpdateChildrenSortingLayer(layers[selected]);
+            sorting.SetSortingLayerInChildren(layers[selected]);
         }
     }
 }

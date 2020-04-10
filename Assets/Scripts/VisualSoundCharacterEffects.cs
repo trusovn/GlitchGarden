@@ -2,7 +2,8 @@
 
 public class VisualSoundCharacterEffects : MonoBehaviour
 {
-    [SerializeField] ParticleSystem deathParticleSystem = default;
+    [SerializeField] GameObject deathParticleSystemPrefab = default;
+    [SerializeField] Transform deathPSPosition = default;
     
     Attacker attacker;
     Animator animator;
@@ -27,7 +28,8 @@ public class VisualSoundCharacterEffects : MonoBehaviour
 
     public void PlayDeathPS()
     {
-        deathParticleSystem.Play();
+        var go = Instantiate(deathParticleSystemPrefab, deathPSPosition.position, Quaternion.identity, transform);
+        Destroy(go, go.GetComponent<ParticleSystem>().main.duration);
     }
 
     public void DagameAnimationEnds()
