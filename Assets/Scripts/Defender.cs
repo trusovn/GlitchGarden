@@ -2,12 +2,12 @@
 
 public class Defender : MonoBehaviour
 {
-    [SerializeField] Vector2 defenderSpriteOffset;
+    [SerializeField] Vector2 defenderOffset;
     [SerializeField] GameObject attackProjectile = default;
     [SerializeField] Vector2 projectileSpawnOffset = default;
     [SerializeField] int starCost = 50;
 
-    public Vector2 DefenderSpriteOffset { get => defenderSpriteOffset; set => defenderSpriteOffset = value; }
+    public Vector2 DefenderOffset { get => defenderOffset; set => defenderOffset = value; }
 
     public void Attack()
     {
