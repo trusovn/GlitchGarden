@@ -32,6 +32,11 @@ PrefabInstance:
       propertyPath: projectileSpawnOffset.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6609058597606251454, guid: 7da447b2d4556d84e8e2c75e7d4c36f7,
+        type: 3}
+      propertyPath: attackDistance
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7639781452622508301, guid: 7da447b2d4556d84e8e2c75e7d4c36f7,
         type: 3}
       propertyPath: m_Controller

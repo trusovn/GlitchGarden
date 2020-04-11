@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 453672856563979667}
   - component: {fileID: 453672856563979668}
   - component: {fileID: -8399670851953413181}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Juju
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,4 +116,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
-  spriteYOffset: 0.17
+  attackerOffset: {x: 0, y: 0}

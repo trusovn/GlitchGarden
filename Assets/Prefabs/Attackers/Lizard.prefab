@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 352225862063108275}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Death PS position
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 352225863206225663}
   - component: {fileID: 352225863206225632}
   - component: {fileID: 1382207576847910757}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lizard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 352225863345623042}
   - component: {fileID: 352225863345623041}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

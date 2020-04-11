@@ -672,19 +672,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 647070796, guid: 1b632d454ce523b42bb00229b7ba0aa0, type: 3}
-      propertyPath: attackerPrefab
-      value: 
-      objectReference: {fileID: 352225863206225634, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
-        type: 3}
-    - target: {fileID: 3281026418540754116, guid: 1b632d454ce523b42bb00229b7ba0aa0,
-        type: 3}
-      propertyPath: m_Name
-      value: Spawner
+      propertyPath: spawnPerSecond
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 647070796, guid: 1b632d454ce523b42bb00229b7ba0aa0, type: 3}
+      propertyPath: spawnRandomFactor
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 3281026418540754116, guid: 1b632d454ce523b42bb00229b7ba0aa0,
         type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      propertyPath: m_Name
+      value: Attacker Spawner
       objectReference: {fileID: 0}
     - target: {fileID: 3281026418540754117, guid: 1b632d454ce523b42bb00229b7ba0aa0,
         type: 3}
