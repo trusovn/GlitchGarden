@@ -6,6 +6,8 @@ public class StarsDisplay : MonoBehaviour
     [SerializeField][Rename("Start Stars Count")] int starsCount = 100; // todo: move this to some kind of LevelSetup GO, as otherwise it's hard to locate.
     Text starsText;
 
+    public int StarsCount { get => starsCount; }
+
     private void Start()
     {
         starsText = GetComponent<Text>();

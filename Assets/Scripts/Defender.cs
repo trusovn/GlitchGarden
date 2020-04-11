@@ -8,6 +8,7 @@ public class Defender : MonoBehaviour
     [SerializeField] int starCost = 50;
 
     public Vector2 DefenderOffset { get => defenderOffset; set => defenderOffset = value; }
+    public int StarCost { get => starCost; }
 
     public void Attack()
     {
