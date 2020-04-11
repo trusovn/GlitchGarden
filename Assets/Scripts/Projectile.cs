@@ -5,6 +5,8 @@ public class Projectile : MonoBehaviour
     [SerializeField] float flySpeed = 1;
     [SerializeField] int damagePoints = 25;
 
+    public int DamagePoints { get => damagePoints; set => damagePoints = value; }
+
     void Update()
     {
         transform.Translate(Vector2.right * flySpeed * Time.deltaTime, Space.World);    

@@ -4,7 +4,7 @@ public class VisualSoundCharacterEffects : MonoBehaviour
 {
     [SerializeField] GameObject deathParticleSystemPrefab = default;
     [SerializeField] Transform deathPSPosition = default;
-    
+
     Attacker attacker;
     Animator animator;
 
@@ -14,10 +14,17 @@ public class VisualSoundCharacterEffects : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public void PlayDamageEffects()
+    public void PlayDamageEffects(bool minorDamage = false)
     {
-        animator.SetTrigger("Damage");
-        attacker.CanMove = false;
+        if (minorDamage)
+        {
+            animator.SetTrigger("MinorDamage");
+        }
+        else
+        {
+            animator.SetTrigger("Damage");
+            attacker.CanMove = false;
+        }
     }
 
     public void PlayDeathEffects()

@@ -4,6 +4,7 @@ public class Health : MonoBehaviour
 {
     [SerializeField] int healthPoints = 10;
     [SerializeField] float timeForDestroyingGO = 5;
+    [SerializeField] int minorDamageThreshold = 5;
 
     VisualSoundCharacterEffects visualSoundCharacterEffects;
 
