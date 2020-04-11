@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AttackerSpawner : MonoBehaviour
@@ -29,6 +28,7 @@ public class AttackerSpawner : MonoBehaviour
                 var offset = attackerPrefab.GetComponent<Attacker>().AttackerOffset;
                 var attacker = Instantiate(attackerPrefab, new Vector2(spawnXPosition, prefabYPosition) + offset, Quaternion.identity);
                 attacker.GetComponent<Sorting>().SetSortingLayerInChildren($"Lane {prefabYPosition}");
+                attacker.transform.parent = transform;
             }
             yield return new WaitForSeconds(Random.Range(1 / (spawnPerSecond + spawnRandomFactor), 1 / (spawnPerSecond - spawnRandomFactor)));
         }

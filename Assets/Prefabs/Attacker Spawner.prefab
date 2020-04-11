@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0fb89f420d6843488416f6570dc3f32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackerPrefab: {fileID: 6450643411215862428, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
+  attackerPrefab: {fileID: 352225863206225634, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
     type: 3}
   spawnXPosition: 10
   spwanYMin: 1
