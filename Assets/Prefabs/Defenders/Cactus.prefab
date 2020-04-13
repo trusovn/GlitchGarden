@@ -123,5 +123,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cactus
       objectReference: {fileID: 0}
+    - target: {fileID: 9063557168332927123, guid: 7da447b2d4556d84e8e2c75e7d4c36f7,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.022322834
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063557168332927123, guid: 7da447b2d4556d84e8e2c75e7d4c36f7,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.03477457
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063557168332927123, guid: 7da447b2d4556d84e8e2c75e7d4c36f7,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.39006436
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063557168332927123, guid: 7da447b2d4556d84e8e2c75e7d4c36f7,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.8434406
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7da447b2d4556d84e8e2c75e7d4c36f7, type: 3}

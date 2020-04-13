@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 1262180438917141787}
   - component: {fileID: -9112128907087941671}
   - component: {fileID: 279209896}
+  - component: {fileID: 6396269062145170705}
   m_Layer: 0
   m_Name: Trophy
   m_TagString: Untagged
@@ -102,8 +103,10 @@ MonoBehaviour:
   defenderOffset: {x: 0, y: 0}
   attackProjectile: {fileID: 0}
   projectileSpawnOffset: {x: 0, y: 0}
+  attackPoints: 0
   attackDistance: -1
   attackAnimationParam: Attacking
+  attackersLayerName: Attacker
 --- !u!114 &279209896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,6 +125,22 @@ MonoBehaviour:
   starTimeToLive: 5
   starPrefab: {fileID: 4690202444384287210, guid: d1ab7d87599676f45ac96d161356e07e,
     type: 3}
+--- !u!70 &6396269062145170705
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262180438917141784}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0020859987, y: 0.027118087}
+  m_Size: {x: 0.39569917, y: 0.7955706}
+  m_Direction: 0
 --- !u!1 &1262180439697826244
 GameObject:
   m_ObjectHideFlags: 0
