@@ -27,7 +27,7 @@ public class Health : MonoBehaviour
         } 
         else
         {
-            visualSoundCharacterEffects.PlayDamageEffects();
+            visualSoundCharacterEffects.PlayDamageEffects(points <= minorDamageThreshold);
         }
     }
 
