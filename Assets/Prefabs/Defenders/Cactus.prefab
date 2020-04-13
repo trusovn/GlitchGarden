@@ -7,6 +7,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5404253995298397180, guid: 7da447b2d4556d84e8e2c75e7d4c36f7,
+        type: 3}
+      propertyPath: attackPoints
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404253995298397180, guid: 7da447b2d4556d84e8e2c75e7d4c36f7,
+        type: 3}
+      propertyPath: attackDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404253995298397180, guid: 7da447b2d4556d84e8e2c75e7d4c36f7,
+        type: 3}
+      propertyPath: projectileSpawnOffset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404253995298397180, guid: 7da447b2d4556d84e8e2c75e7d4c36f7,
+        type: 3}
+      propertyPath: projectileSpawnOffset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404253995298397180, guid: 7da447b2d4556d84e8e2c75e7d4c36f7,
+        type: 3}
+      propertyPath: attackProjectile
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6609058597606251454, guid: 7da447b2d4556d84e8e2c75e7d4c36f7,
         type: 3}
       propertyPath: defenderOffset.x
