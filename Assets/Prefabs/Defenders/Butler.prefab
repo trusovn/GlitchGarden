@@ -205,7 +205,10 @@ MonoBehaviour:
   attackProjectile: {fileID: 233852541308936236, guid: 9a82a8365c347e2479e41fb19f3969da,
     type: 3}
   projectileSpawnOffset: {x: 0.56, y: -0.18}
+  attackPoints: 25
   attackDistance: 10
+  attackAnimationParam: Attacking
+  attackersLayerName: Attacker
 --- !u!114 &9063557168332927126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,6 +223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthPoints: 100
   timeForDestroyingGO: 5
+  minorDamageThreshold: 5
 --- !u!114 &9063557168332927127
 MonoBehaviour:
   m_ObjectHideFlags: 0

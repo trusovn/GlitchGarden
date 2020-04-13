@@ -52,7 +52,7 @@ public class Defender : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (attackDistance < 0) { return; } // Trophy
+        if (attackDistance < 0) { return; } // Trophy, gravestone, etc.
 
         if (CheckEnemyInAttackRange())
         {
