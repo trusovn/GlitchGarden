@@ -1,60 +1,24 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class DamageDealer : MonoBehaviour
 {
-    [SerializeField] GameObject attackProjectile = default;
-    [SerializeField] Vector2 projectileSpawnOffset = default;
-    [SerializeField] int attackPoints = default;
+    [SerializeField] protected int attackPoints = default;
     [SerializeField] string attackAnimationParam = "Attacking"; // TODO: replace with parameter selection dropdown (AnimatorController.parameters?)
-    [SerializeField] string enemyLayerName = "Attacker"; // TODO: replace with layer selection dropdown
-    [SerializeField] Collider2D attackCollider = default;
+    [SerializeField] protected string enemyLayerName = "Attacker"; // TODO: replace with layer selection dropdown
 
-    float attackDistance;
-    Animator animator;
-    Attacker attacker;
+    protected float attackDistance;
+    protected Animator animator;
+    protected Attacker attacker;
+    Collider2D myCollider;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
         attacker = GetComponent<Attacker>();
-        if (attackProjectile)
-        {
-            attackDistance = float.PositiveInfinity;
-        }
-        else
-        {
-            attackDistance = Mathf.Abs(attackCollider.bounds.center.x - attackCollider.bounds.max.x);
-        }
+        myCollider = GetComponent<Collider2D>();
     }
 
-    public void Attack()
-    {
-        if (attackProjectile)
-        {
-            SpawnProjectile();
-        }
-        else
-        {
-            HitEnemy();
-        }
-    }
-
-    private void HitEnemy()
-    {
-        var enemies = GetEnemiesInRange<Health>();
-        foreach (var enemy in enemies)
-        {
-            enemy.GotDamage(attackPoints);
-        }
-    }
-
-    private void SpawnProjectile()
-    {
-        var projectile = Instantiate(attackProjectile, transform.position + new Vector3(projectileSpawnOffset.x, projectileSpawnOffset.y, 0), Quaternion.identity);
-        projectile.GetComponent<Projectile>().DamagePoints = attackPoints;
-    }
+    public virtual void Attack() { }
 
     private void FixedUpdate()
     {
@@ -88,15 +52,8 @@ public class DamageDealer : MonoBehaviour
         }
     }
 
-    private List<T> GetEnemiesInRange<T>()
+    protected virtual Vector2 MyAttackPosition()
     {
-        var attackArea = new Vector2(attackCollider.bounds.size.x, attackCollider.bounds.size.y);
-        var enemies = Physics2D.OverlapBoxAll(MyAttackPosition(), new Vector2(1, 1), 0, LayerMask.GetMask(enemyLayerName));
-        return new List<T>(enemies.Select(e => e.gameObject.GetComponent<T>()));
-    }
-
-    private Vector2 MyAttackPosition()
-    {
-        return attackCollider.bounds.center;
+        return myCollider.bounds.center;
     }
 }
