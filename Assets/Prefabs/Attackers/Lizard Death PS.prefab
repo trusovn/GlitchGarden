@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2845640323243562047}
   - component: {fileID: 313115168561359597}
   m_Layer: 0
-  m_Name: Lizard Death
+  m_Name: Lizard Death PS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3791,7 +3791,7 @@ ParticleSystem:
     radiusScale: 1
     collidesWith:
       serializedVersion: 2
-      m_Bits: 256
+      m_Bits: 1024
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5

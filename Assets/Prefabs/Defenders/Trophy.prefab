@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: -9112128907087941671}
   - component: {fileID: 279209896}
   - component: {fileID: 6396269062145170705}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trophy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,12 +101,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   starCost: 25
   defenderOffset: {x: 0, y: 0}
-  attackProjectile: {fileID: 0}
-  projectileSpawnOffset: {x: 0, y: 0}
-  attackPoints: 0
-  attackDistance: -1
-  attackAnimationParam: Attacking
-  attackersLayerName: Attacker
 --- !u!114 &279209896
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 9063557168332927112}
   - component: {fileID: 7639781452622508301}
   - component: {fileID: 5404253995298397180}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Butler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0f7df2dec532544bb7e24dd9bae16da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathParticleSystemPrefab: {fileID: 2224327495471603932, guid: 23866873077990b43871f4a9d05ffa80,
+  deathParticleSystemPrefab: {fileID: 1396236225547817558, guid: eaf92dbc710b0b34fadd59c0591d64a8,
     type: 3}
   deathPSPosition: {fileID: 9063557167428863707}
 --- !u!114 &9063557168332927112
@@ -280,6 +280,6 @@ MonoBehaviour:
     type: 3}
   projectileSpawnOffset: {x: 0.55, y: -0.12}
   attackPoints: 25
-  attackDistance: 10
   attackAnimationParam: Attacking
-  attackersLayerName: Attacker
+  enemyLayerName: Attacker
+  attackCollider: {fileID: 0}

@@ -7,15 +7,26 @@ public class DamageDealer : MonoBehaviour
     [SerializeField] GameObject attackProjectile = default;
     [SerializeField] Vector2 projectileSpawnOffset = default;
     [SerializeField] int attackPoints = default;
-    [SerializeField] float attackDistance = default;
-    [SerializeField] string attackAnimationParam = "Attacking";
-    [SerializeField] string attackersLayerName = "Attacker";
+    [SerializeField] string attackAnimationParam = "Attacking"; // TODO: replace with parameter selection dropdown (AnimatorController.parameters?)
+    [SerializeField] string enemyLayerName = "Attacker"; // TODO: replace with layer selection dropdown
+    [SerializeField] Collider2D attackCollider = default;
 
+    float attackDistance;
     Animator animator;
+    Attacker attacker;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
+        attacker = GetComponent<Attacker>();
+        if (attackProjectile)
+        {
+            attackDistance = float.PositiveInfinity;
+        }
+        else
+        {
+            attackDistance = Mathf.Abs(attackCollider.bounds.center.x - attackCollider.bounds.max.x);
+        }
     }
 
     public void Attack()
@@ -26,11 +37,11 @@ public class DamageDealer : MonoBehaviour
         }
         else
         {
-            HitAttackers();
+            HitEnemy();
         }
     }
 
-    private void HitAttackers()
+    private void HitEnemy()
     {
         var enemies = GetEnemiesInRange<Health>();
         foreach (var enemy in enemies)
@@ -47,8 +58,6 @@ public class DamageDealer : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (attackDistance < 0) { return; } // Trophy, gravestone, etc.
-
         if (CheckEnemyInAttackRange())
         {
             SetAttacking(true);
@@ -61,18 +70,33 @@ public class DamageDealer : MonoBehaviour
 
     private bool CheckEnemyInAttackRange()
     {
-        var hit = Physics2D.Raycast(transform.position, Vector2.right, distance: attackDistance, layerMask: LayerMask.GetMask(attackersLayerName));
+        var attackDirection = Vector2.right;
+        if (attacker)
+        {
+            attackDirection *= -1;
+        }
+        var hit = Physics2D.Raycast(MyAttackPosition(), attackDirection, distance: attackDistance, layerMask: LayerMask.GetMask(enemyLayerName));
         return hit;
     }
 
-    private void SetAttacking(bool canAttack)
+    private void SetAttacking(bool isAttacking)
     {
-        animator.SetBool(attackAnimationParam, canAttack);
+        animator.SetBool(attackAnimationParam, isAttacking);
+        if (attacker)
+        {
+            attacker.CanMove = !isAttacking;
+        }
     }
 
     private List<T> GetEnemiesInRange<T>()
     {
-        var enemies = Physics2D.OverlapBoxAll(new Vector2(transform.position.x, transform.position.y), new Vector2(1, 1), 0, LayerMask.GetMask(attackersLayerName));
+        var attackArea = new Vector2(attackCollider.bounds.size.x, attackCollider.bounds.size.y);
+        var enemies = Physics2D.OverlapBoxAll(MyAttackPosition(), new Vector2(1, 1), 0, LayerMask.GetMask(enemyLayerName));
         return new List<T>(enemies.Select(e => e.gameObject.GetComponent<T>()));
+    }
+
+    private Vector2 MyAttackPosition()
+    {
+        return attackCollider.bounds.center;
     }
 }

@@ -23,14 +23,20 @@ public class VisualSoundCharacterEffects : MonoBehaviour
         else
         {
             animator.SetTrigger("Damage");
-            attacker.CanMove = false;
+            if (attacker)
+            {
+                attacker.CanMove = false;
+            }
         }
     }
 
     public void PlayDeathEffects()
     {
         animator.SetTrigger("Death");
-        attacker.CanMove = false;
+        if (attacker)
+        {
+            attacker.CanMove = false;
+        }
     }
 
     public void PlayDeathPS()
