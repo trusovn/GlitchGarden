@@ -273,13 +273,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 9063557168332927114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c43531e886ca85499764397f42c202c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b4da6760567ccb458b48ab076b29e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackProjectile: {fileID: 233852541308936236, guid: 9a82a8365c347e2479e41fb19f3969da,
-    type: 3}
-  projectileSpawnOffset: {x: 0.55, y: -0.12}
   attackPoints: 25
   attackAnimationParam: Attacking
   enemyLayerName: Attacker
-  attackCollider: {fileID: 0}
+  attackProjectile: {fileID: 233852541308936236, guid: 9a82a8365c347e2479e41fb19f3969da,
+    type: 3}
+  projectileSpawnOffset: {x: 0.55, y: -0.125}

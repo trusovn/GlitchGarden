@@ -57,6 +57,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75, y: 0.73}
   m_EdgeRadius: 0
+--- !u!114 &1361691663057569470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262899786263608606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83144da4e2a86b34b90a259490bbad30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackPoints: 10
+  attackAnimationParam: Attacking
+  enemyLayerName: Attacker
+  attackCollider: {fileID: 5608679455756231425}
 --- !u!1001 &9110281558868708756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -230,8 +246,15 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.8434406
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5404253995298397180, guid: 7da447b2d4556d84e8e2c75e7d4c36f7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7da447b2d4556d84e8e2c75e7d4c36f7, type: 3}
+--- !u!1 &262899786263608606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9063557168332927114, guid: 7da447b2d4556d84e8e2c75e7d4c36f7,
+    type: 3}
+  m_PrefabInstance: {fileID: 9110281558868708756}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &262899786263608605 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9063557168332927113, guid: 7da447b2d4556d84e8e2c75e7d4c36f7,

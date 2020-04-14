@@ -5,8 +5,9 @@ public class RangedFighter : DamageDealer
     [SerializeField] GameObject attackProjectile = default;
     [SerializeField] Vector2 projectileSpawnOffset = default;
 
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         attackDistance = float.PositiveInfinity;
     }
 

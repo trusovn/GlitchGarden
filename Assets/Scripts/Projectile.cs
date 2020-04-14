@@ -12,7 +12,7 @@ public class Projectile : MonoBehaviour
         transform.Translate(Vector2.right * flySpeed * Time.deltaTime, Space.World);    
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision) // TODO: deals damage to all. apply only to one.
     {
         if (collision.GetComponent<Attacker>())
         {

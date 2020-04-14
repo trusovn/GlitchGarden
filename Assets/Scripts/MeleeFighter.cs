@@ -6,8 +6,9 @@ public class MeleeFighter : DamageDealer
 {
     [SerializeField] Collider2D attackCollider = default;
 
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         attackDistance = Mathf.Abs(attackCollider.bounds.center.x - attackCollider.bounds.max.x);
     }
 

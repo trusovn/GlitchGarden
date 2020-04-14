@@ -250,12 +250,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 352225863206225634}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c43531e886ca85499764397f42c202c, type: 3}
+  m_Script: {fileID: 11500000, guid: 83144da4e2a86b34b90a259490bbad30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackProjectile: {fileID: 0}
-  projectileSpawnOffset: {x: 0, y: 0}
-  attackPoints: 50
+  attackPoints: 25
   attackAnimationParam: Attacking
   enemyLayerName: Defender
   attackCollider: {fileID: 7999116314503231709}

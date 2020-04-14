@@ -15,10 +15,6 @@ public class Health : MonoBehaviour
 
     public void GotDamage(int points)
     {
-        if (!GetComponent<Attacker>().IsSpawned())
-        {
-            return;
-        }
         healthPoints -= points;
         
         if (healthPoints <= 0)

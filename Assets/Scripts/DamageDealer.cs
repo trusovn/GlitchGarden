@@ -11,7 +11,11 @@ public class DamageDealer : MonoBehaviour
     protected Attacker attacker;
     Collider2D myCollider;
 
-    private void Start()
+    bool inAttack;
+
+    public bool InAttack { get => inAttack; set => inAttack = value; }
+
+    protected virtual void Start()
     {
         animator = GetComponent<Animator>();
         attacker = GetComponent<Attacker>();
@@ -46,10 +50,7 @@ public class DamageDealer : MonoBehaviour
     private void SetAttacking(bool isAttacking)
     {
         animator.SetBool(attackAnimationParam, isAttacking);
-        if (attacker)
-        {
-            attacker.CanMove = !isAttacking;
-        }
+        InAttack = isAttacking;
     }
 
     protected virtual Vector2 MyAttackPosition()
