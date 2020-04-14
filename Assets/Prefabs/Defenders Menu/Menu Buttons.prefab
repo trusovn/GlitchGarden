@@ -31,6 +31,7 @@ Transform:
   - {fileID: 3086779192074477073}
   - {fileID: 8296994289852746302}
   - {fileID: 3961473670050131481}
+  - {fileID: 3213095046683306754}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -128,6 +129,81 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1898675385409953187
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 606170323582665776}
+    m_Modifications:
+    - target: {fileID: 3949172949642344097, guid: d950697601efe8949ba1f32b41ecb2be,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3949172949642344097, guid: d950697601efe8949ba1f32b41ecb2be,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3949172949642344097, guid: d950697601efe8949ba1f32b41ecb2be,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3949172949642344097, guid: d950697601efe8949ba1f32b41ecb2be,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3949172949642344097, guid: d950697601efe8949ba1f32b41ecb2be,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3949172949642344097, guid: d950697601efe8949ba1f32b41ecb2be,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3949172949642344097, guid: d950697601efe8949ba1f32b41ecb2be,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3949172949642344097, guid: d950697601efe8949ba1f32b41ecb2be,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3949172949642344097, guid: d950697601efe8949ba1f32b41ecb2be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3949172949642344097, guid: d950697601efe8949ba1f32b41ecb2be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3949172949642344097, guid: d950697601efe8949ba1f32b41ecb2be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5449133205231861143, guid: d950697601efe8949ba1f32b41ecb2be,
+        type: 3}
+      propertyPath: m_Name
+      value: Gravestone Menu Button
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d950697601efe8949ba1f32b41ecb2be, type: 3}
+--- !u!4 &3213095046683306754 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3949172949642344097, guid: d950697601efe8949ba1f32b41ecb2be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1898675385409953187}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3075631217114721593
 PrefabInstance:
   m_ObjectHideFlags: 0
