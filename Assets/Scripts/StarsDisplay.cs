@@ -3,36 +3,27 @@ using UnityEngine.UI;
 
 public class StarsDisplay : MonoBehaviour
 {
-    [SerializeField][Rename("Start Stars Count")] int starsCount = 100; // todo: move this to some kind of LevelSetup GO, as otherwise it's hard to locate.
+    [SerializeField] StarsCounter starsCounter = default;
+    
     Text starsText;
-
-    public int StarsCount { get => starsCount; }
+    int previousStarsValue = -1;
 
     private void Start()
     {
         starsText = GetComponent<Text>();
-        UpdateDisplay();
     }
 
     private void UpdateDisplay()
     {
-        starsText.text = starsCount.ToString();
+        starsText.text = starsCounter.StarsCount.ToString();
     }
 
-    public void AddStars(int amount)
+    private void Update() // TODO: do this on event
     {
-        starsCount += amount;
-        UpdateDisplay();
-    }
-
-    public bool SpendStars(int amount)
-    {
-        if (amount > starsCount)
+        if (starsCounter.StarsCount != previousStarsValue)
         {
-            return false;
+            UpdateDisplay();
+            previousStarsValue = starsCounter.StarsCount;
         }
-        starsCount -= amount;
-        UpdateDisplay();
-        return true;
     }
 }

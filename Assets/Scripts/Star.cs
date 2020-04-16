@@ -2,6 +2,7 @@
 
 public class Star : MonoBehaviour
 {
+    [SerializeField] StarsCounter starsCounter = default;
     int starPoints = 10;
     float timeToLive = 20;
 
@@ -15,7 +16,7 @@ public class Star : MonoBehaviour
 
     private void OnMouseDown()
     {
-        FindObjectOfType<StarsDisplay>().AddStars(starPoints);
+        starsCounter.AddStars(starPoints);
         Destroy(gameObject);
     }
 }

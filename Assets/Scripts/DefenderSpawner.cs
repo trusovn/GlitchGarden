@@ -5,11 +5,10 @@ public class DefenderSpawner : MonoBehaviour
     Defender defender;
     bool[] cells;
     Vector2 fieldSize;
-    StarsDisplay starsDisplay;
+    [SerializeField] StarsCounter starsCounter = default;
 
     private void Start()
     {
-        starsDisplay = FindObjectOfType<StarsDisplay>();
         fieldSize = GetComponent<BoxCollider2D>().size;
         cells = new bool[(int)(fieldSize.x * fieldSize.y)];
     }
@@ -28,14 +27,14 @@ public class DefenderSpawner : MonoBehaviour
             {
                 Instantiate(defender, cell + defender.DefenderOffset, Quaternion.identity);
                 SetSellValue(cell);
-                starsDisplay.SpendStars(defender.StarCost);
+                starsCounter.SpendStars(defender.StarCost);
             }
         }
     }
 
     private bool EnoughPointsForDefender(Defender defender)
     {
-        return starsDisplay.StarsCount >= defender.StarCost;
+        return starsCounter.StarsCount >= defender.StarCost;
     }
 
     private Vector2 GetCellCoordinatesFromMouseClick()

@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f34daf3d4dc58d45beeca25e0942d37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starsCount: 100
+  starsCounter: {fileID: 11400000, guid: 7c3f50115729e50449bc68f84d5fee42, type: 2}
 --- !u!1001 &606170323882108924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -416,11 +416,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1544098662222675970, guid: 4a322f4f58b701644a07ae4523e39bac,
-        type: 3}
-      propertyPath: defender
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1544098662222675971, guid: 4a322f4f58b701644a07ae4523e39bac,
         type: 3}
