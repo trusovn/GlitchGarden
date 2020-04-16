@@ -9,7 +9,6 @@ public class StarSpawner : MonoBehaviour
     [SerializeField] float starTimeToLive = default;
     [SerializeField] GameObject starPrefab = default;
 
-
     Animator spawnerAnimator;
 
     private void Start()
@@ -30,7 +29,7 @@ public class StarSpawner : MonoBehaviour
     // called by Animation
     public void SpawnStar()
     {
-        var starGO = Instantiate(starPrefab, transform, false);
+        var starGO = Instantiate(starPrefab, transform.position, Quaternion.identity);
         var star = starGO.GetComponentInChildren<Star>();
         star.TimeToLive = starTimeToLive;
         star.StarPoints = starPoints;

@@ -62,3 +62,6 @@ TagManager:
   - name: Environment
     uniqueID: 1952010113
     locked: 0
+  - name: Stars
+    uniqueID: 3310016345
+    locked: 0
