@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [CreateAssetMenu]
-public class TrophyHolder : CharacterHolder
+public class TrophyHolder : DefendersHolder
 {
     public override void Die(GameObject trophy)
     {

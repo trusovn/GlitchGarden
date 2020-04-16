@@ -6,18 +6,18 @@ public class CharacterHolder : ScriptableObject
 {
     private List<GameObject> characters = new List<GameObject>();
 
-    public virtual void Add(GameObject trophy)
+    public virtual void Add(GameObject character)
     {
-        characters.Add(trophy);
+        characters.Add(character);
     }
 
-    public virtual void Die(GameObject trophy)
+    public virtual void Die(GameObject character)
     {
-        Remove(trophy);
+        Remove(character);
     }
 
-    public virtual void Remove(GameObject trophy)
+    public virtual void Remove(GameObject character)
     {
-        characters.Remove(trophy);
+        characters.Remove(character);
     }
 }

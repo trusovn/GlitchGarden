@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce50959135815be42bf5fd1b6a253648, type: 3}
-  m_Name: Trophy Holder
+  m_Script: {fileID: 11500000, guid: ebaa23c51b654e24494fe78f20e8cea8, type: 3}
+  m_Name: Defenders Holder
   m_EditorClassIdentifier: 
   fieldCells: {fileID: 11400000, guid: 27fd8e201b3baa5458ad1eec59e92934, type: 2}

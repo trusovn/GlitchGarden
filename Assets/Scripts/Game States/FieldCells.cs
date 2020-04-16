@@ -17,9 +17,9 @@ public class FieldCells : ScriptableObject
         cells[CellCoordinatesToInt(cell)] = true;
     }
 
-    public void MarkCellFree(Vector2Int cell)
+    public void MarkCellFree(int x, int y)
     {
-        cells[CellCoordinatesToInt(cell)] = false;
+        cells[CellCoordinatesToInt(new Vector2Int(x, y))] = false;
     }
 
     public bool CanPlaceDefenderInCell(Vector2Int cell)
