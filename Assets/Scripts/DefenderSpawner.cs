@@ -3,14 +3,13 @@
 public class DefenderSpawner : MonoBehaviour
 {
     Defender defender;
-    bool[] cells;
-    Vector2 fieldSize;
     [SerializeField] StarsCounter starsCounter = default;
+    [SerializeField] FieldCells fieldCells = default;
 
     private void Start()
     {
-        fieldSize = GetComponent<BoxCollider2D>().size;
-        cells = new bool[(int)(fieldSize.x * fieldSize.y)];
+        var collider = GetComponent<BoxCollider2D>();
+        fieldCells.InitNewField((int)collider.size.x, (int)collider.size.y);
     }
 
     public void SetSelectedDefender(Defender defender)
@@ -23,10 +22,10 @@ public class DefenderSpawner : MonoBehaviour
         if (defender && EnoughPointsForDefender(defender))
         {
             var cell = GetCellCoordinatesFromMouseClick();
-            if (CanPlaceDefenderInCell(cell))
+            if (fieldCells.CanPlaceDefenderInCell(cell))
             {
                 Instantiate(defender, cell + defender.DefenderOffset, Quaternion.identity);
-                SetSellValue(cell);
+                fieldCells.MarkCellOccupied(cell);
                 starsCounter.SpendStars(defender.StarCost);
             }
         }
@@ -37,24 +36,9 @@ public class DefenderSpawner : MonoBehaviour
         return starsCounter.StarsCount >= defender.StarCost;
     }
 
-    private Vector2 GetCellCoordinatesFromMouseClick()
+    private Vector2Int GetCellCoordinatesFromMouseClick()
     {
         var position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        return new Vector2(Mathf.RoundToInt(position.x), Mathf.RoundToInt(position.y));
-    }
-
-    private void SetSellValue(Vector2 cell)
-    {
-        cells[CellCoordinatesToInt(cell)] = true;
-    }
-
-    private bool CanPlaceDefenderInCell(Vector2 cell)
-    {
-        return !cells[CellCoordinatesToInt(cell)];
-    }
-
-    private int CellCoordinatesToInt(Vector2 cell)
-    {
-        return (int)((cell.x - 1) + (cell.y - 1) * fieldSize.x);
+        return new Vector2Int(Mathf.RoundToInt(position.x), Mathf.RoundToInt(position.y));
     }
 }

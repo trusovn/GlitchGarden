@@ -71,3 +71,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starsCounter: {fileID: 11400000, guid: 7c3f50115729e50449bc68f84d5fee42, type: 2}
+  fieldCells: {fileID: 11400000, guid: 27fd8e201b3baa5458ad1eec59e92934, type: 2}
