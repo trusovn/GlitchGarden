@@ -151,8 +151,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthPoints: 50
-  timeForDestroyingGO: 2
+  timeForDestroyingGO: 5
   minorDamageThreshold: 5
+  characterHolder: {fileID: 11400000, guid: 7424eae5c2cb1574cb2f8bb387892370, type: 2}
 --- !u!114 &-1697458010377348925
 MonoBehaviour:
   m_ObjectHideFlags: 0

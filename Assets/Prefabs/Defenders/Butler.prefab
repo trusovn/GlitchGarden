@@ -218,6 +218,7 @@ MonoBehaviour:
   healthPoints: 100
   timeForDestroyingGO: 5
   minorDamageThreshold: 5
+  characterHolder: {fileID: 11400000, guid: 670affcc3c1ca1749a54fdce99214229, type: 2}
 --- !u!114 &9063557168332927127
 MonoBehaviour:
   m_ObjectHideFlags: 0
