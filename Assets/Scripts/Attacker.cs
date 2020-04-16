@@ -30,7 +30,7 @@ public class Attacker : MonoBehaviour
 
     void Update()
     {
-        if (canMove && !attackersDamageDealer.InAttack)
+        if (canMove && !attackersDamageDealer.InAttack) // TODO: add small random delay after killing and enemy, so few attackers won't move identically.
         {
             transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
         }

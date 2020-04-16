@@ -43,6 +43,8 @@ GameObject:
   - component: {fileID: -9112128907087941671}
   - component: {fileID: 279209896}
   - component: {fileID: 6396269062145170705}
+  - component: {fileID: -3582068205557478866}
+  - component: {fileID: -1697458010377348925}
   m_Layer: 9
   m_Name: Trophy
   m_TagString: Untagged
@@ -65,6 +67,7 @@ Transform:
   - {fileID: 1262180439697826247}
   - {fileID: 1262180440700094281}
   - {fileID: 251792417}
+  - {fileID: 6014213959266376161}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -135,6 +138,36 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0020859987, y: 0.027118087}
   m_Size: {x: 0.39569917, y: 0.7955706}
   m_Direction: 0
+--- !u!114 &-3582068205557478866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262180438917141784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636e5b2de734e544b9045e1ad03ff6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPoints: 50
+  timeForDestroyingGO: 2
+  minorDamageThreshold: 5
+--- !u!114 &-1697458010377348925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262180438917141784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f7df2dec532544bb7e24dd9bae16da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathParticleSystemPrefab: {fileID: 1396236225547817558, guid: eaf92dbc710b0b34fadd59c0591d64a8,
+    type: 3}
+  deathPSPosition: {fileID: 6014213959266376161}
 --- !u!1 &1262180439697826244
 GameObject:
   m_ObjectHideFlags: 0
@@ -184,7 +217,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 225366fabbeda404db9c2b17e6789b5a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -266,7 +299,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 225366fabbeda404db9c2b17e6789b5a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5053,3 +5086,33 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!1 &1775525550354909136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6014213959266376161}
+  m_Layer: 9
+  m_Name: Death PS Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6014213959266376161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775525550354909136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1262180438917141786}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
