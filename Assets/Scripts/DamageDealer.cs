@@ -4,7 +4,7 @@ public class DamageDealer : MonoBehaviour
 {
     [SerializeField] protected int attackPoints = default;
     [SerializeField] string attackAnimationParam = "Attacking"; // TODO: replace with parameter selection dropdown (AnimatorController.parameters?)
-    [SerializeField] protected string enemyLayerName = "Attacker"; // TODO: replace with layer selection dropdown
+    [SerializeField] private string enemyLayerName = "Attacker"; // TODO: replace with layer selection dropdown
 
     protected float attackDistance;
     protected Animator animator;
@@ -14,6 +14,7 @@ public class DamageDealer : MonoBehaviour
     bool inAttack;
 
     public bool InAttack { get => inAttack; set => inAttack = value; }
+    public string EnemyLayerName { get => enemyLayerName; }
 
     protected virtual void Start()
     {
@@ -25,6 +26,11 @@ public class DamageDealer : MonoBehaviour
     public virtual void Attack() { }
 
     private void FixedUpdate()
+    {
+        SetAttackIfEnemyInRange();
+    }
+
+    private void SetAttackIfEnemyInRange()
     {
         if (CheckEnemyInAttackRange())
         {

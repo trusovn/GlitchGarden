@@ -9,6 +9,7 @@ public class Attacker : MonoBehaviour
     bool canMove = false;
     DamageDealer attackersDamageDealer;
     Collider2D attackersMainCollider;
+    float currentMoveSpeed;
 
     public Vector2 AttackerOffset { get => attackerOffset; }
     public bool CanMove { get => canMove; set => canMove = value; }
@@ -26,13 +27,24 @@ public class Attacker : MonoBehaviour
         attackersMainCollider.enabled = true;
         attackersDamageDealer.enabled = true;
         canMove = true;
+        currentMoveSpeed = moveSpeed;
+    }
+
+    public void SetMoveSpeed(float speed)
+    {
+        currentMoveSpeed = speed;
+    }
+
+    public void RestoreMoveSpeed()
+    {
+        currentMoveSpeed = moveSpeed;
     }
 
     void Update()
     {
         if (canMove && !attackersDamageDealer.InAttack) // TODO: add small random delay after killing an enemy, so few attackers won't move identically.
         {
-            transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
+            transform.Translate(Vector2.left * currentMoveSpeed * Time.deltaTime);
         }
     }
 }

@@ -26,10 +26,10 @@ public class MeleeFighter : DamageDealer
         }
     }
 
-    private List<T> GetEnemiesInRange<T>()
+    protected List<T> GetEnemiesInRange<T>()
     {
         var attackArea = new Vector2(attackCollider.bounds.size.x, attackCollider.bounds.size.y);
-        var enemies = Physics2D.OverlapBoxAll(MyAttackPosition(), new Vector2(1, 1), 0, LayerMask.GetMask(enemyLayerName));
+        var enemies = Physics2D.OverlapBoxAll(MyAttackPosition(), attackArea, 0, LayerMask.GetMask(EnemyLayerName));
         return new List<T>(enemies.Select(e => e.gameObject.GetComponent<T>()));
     }
 
