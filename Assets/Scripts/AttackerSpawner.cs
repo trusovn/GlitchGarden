@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class AttackerSpawner : MonoBehaviour
 {
-    [SerializeField] GameObject attackerPrefab = default;
+    [SerializeField] GameObject[] attackers = default;
     [Range(5, 10)][SerializeField] int spawnXPosition = 10;
     [Range(1, 5)] [SerializeField] int spwanYMin = 1;
     [Range(1, 5)] [SerializeField] int spwanYMax = 5;
@@ -24,14 +24,20 @@ public class AttackerSpawner : MonoBehaviour
         {
             if (spawn)
             {
-                var prefabYPosition = Random.Range(spwanYMin, spwanYMax + 1);
-                var offset = attackerPrefab.GetComponent<Attacker>().AttackerOffset;
-                var attacker = Instantiate(attackerPrefab, new Vector2(spawnXPosition, prefabYPosition) + offset, Quaternion.identity);
-                attacker.GetComponent<Sorting>().SetSortingLayerInChildren($"Lane {prefabYPosition}");
-                attacker.transform.parent = transform;
+                SpawnAttacker();
             }
             yield return new WaitForSeconds(Random.Range(1 / (spawnPerSecond + spawnRandomFactor), 1 / (spawnPerSecond - spawnRandomFactor)));
         }
         
+    }
+
+    private void SpawnAttacker()
+    {
+        var attackerIndex = Random.Range(0, attackers.Length);
+        var prefabYPosition = Random.Range(spwanYMin, spwanYMax + 1);
+        var offset = attackers[attackerIndex].GetComponent<Attacker>().AttackerOffset;
+        var attacker = Instantiate(attackers[attackerIndex], new Vector2(spawnXPosition, prefabYPosition) + offset, Quaternion.identity);
+        attacker.GetComponent<Sorting>().SetSortingLayerInChildren($"Lane {prefabYPosition}");
+        attacker.transform.parent = transform;
     }
 }
