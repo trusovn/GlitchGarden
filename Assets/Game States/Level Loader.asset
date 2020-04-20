@@ -9,7 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9897c196259d5b54a8a74b8ae4b1bc62, type: 3}
-  m_Name: Stars Counter
+  m_Script: {fileID: 11500000, guid: 32354004390433f4c893b9d0c7748184, type: 3}
+  m_Name: Level Loader
   m_EditorClassIdentifier: 
-  startStarsCount: 2000
+  startScene: Start Screen
+  gameOverScene: Game Over Screen
+  firstGameScene: Level 1

@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelLoader : MonoBehaviour
+[CreateAssetMenu]
+public class LevelLoader : ScriptableObject
 {
     [SerializeField] [Scene] string startScene = default;
     [SerializeField] [Scene] string gameOverScene = default;
@@ -15,11 +16,6 @@ public class LevelLoader : MonoBehaviour
     public void LoadGame()
     {
         SceneManager.LoadScene(firstGameScene);
-        //var gameController = FindObjectOfType<GameController>();
-        //if (gameController)
-        //{
-        //    gameController.ResetGame();
-        //}
     }
 
     public void LoadStartScene()

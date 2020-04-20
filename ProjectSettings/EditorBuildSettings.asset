@@ -7,8 +7,14 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Splash Screen.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: a6ace8230c3133e439b532fddf031c37
   - enabled: 1
     path: Assets/Scenes/Start Screen.unity
-    guid: 0517ef175187c6c46899ee560b41db1d
+    guid: 8cfe872fef75e7e4987a9c029608b685
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 04c493bbbdfb3f84daca6bf131cd885a
+  - enabled: 1
+    path: Assets/Scenes/Game Over Screen.unity
+    guid: 134af5d5a9c539348a75864ec14dddab
   m_configObjects: {}
