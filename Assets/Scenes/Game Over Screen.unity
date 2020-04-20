@@ -435,8 +435,8 @@ RectTransform:
   m_Children:
   - {fileID: 749566382}
   - {fileID: 1337797531}
-  - {fileID: 1052337640}
   - {fileID: 6745666431511424596}
+  - {fileID: 1052337640}
   - {fileID: 163801268}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -971,7 +971,7 @@ PrefabInstance:
     - target: {fileID: 2510682852057224361, guid: 2dd1d94c5a4036949ae1ce71140edc52,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2510682852057224361, guid: 2dd1d94c5a4036949ae1ce71140edc52,
         type: 3}
@@ -1037,6 +1037,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510682852057224374, guid: 2dd1d94c5a4036949ae1ce71140edc52,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadStartScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2dd1d94c5a4036949ae1ce71140edc52, type: 3}
