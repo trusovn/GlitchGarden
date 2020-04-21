@@ -11,7 +11,7 @@ public class LevelConfiguration : ScriptableObject
     public float TimeLeft { get => timeLeft; set => timeLeft = value; }
     public float LevelTime { get => levelTime; }
 
-    private void OnEnable()
+    public void ResetTimer()
     {
         timeLeft = levelTime;
     }

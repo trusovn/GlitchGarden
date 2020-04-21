@@ -5,7 +5,6 @@ public class Jumper : MonoBehaviour
     [SerializeField] float jumpStartDistance = 1;
     [SerializeField] float jumpMoveSpeed = 2;
     [SerializeField] string jumpTriggerName = "Jump";
-    [SerializeField] Collider2D attackCollider = default; // TODO: check for cleanup
 
     Attacker attacker;
     Animator animator;

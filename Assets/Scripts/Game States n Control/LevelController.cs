@@ -17,7 +17,17 @@ public class LevelController : MonoBehaviour
 
     bool gameOver;
 
+    private void Start()
+    {
+        levelConfiguration.ResetTimer();
+    }
+
     private void Update()
+    {
+        LevelTimeProgress();
+    }
+
+    private void LevelTimeProgress()
     {
         levelConfiguration.TimeLeft -= Time.deltaTime;
         if (levelConfiguration.TimeLeft <= 0 && !gameOver)
