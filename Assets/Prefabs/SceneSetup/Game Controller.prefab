@@ -45,3 +45,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelLoader: {fileID: 11400000, guid: aa68ac3b4b28d9049babb511db7e9b9e, type: 2}
   levelConfiguration: {fileID: 11400000, guid: 794d1cc82a9e1354f95d12c701b2fe10, type: 2}
+  winTextPrefab: {fileID: 1302326672456622885, guid: 7aeffe352d71cdc4ead30e70f56865e5,
+    type: 3}
+  attackersHolder: {fileID: 11400000, guid: 670affcc3c1ca1749a54fdce99214229, type: 2}
+  winScreenTime: 5
+  winScreenAnimationTime: 2

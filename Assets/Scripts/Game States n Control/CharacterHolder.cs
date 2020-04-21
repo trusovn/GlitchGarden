@@ -6,6 +6,8 @@ public class CharacterHolder : ScriptableObject
 {
     private List<GameObject> characters = new List<GameObject>();
 
+    public int Count => characters.Count;
+
     public virtual void Add(GameObject character)
     {
         characters.Add(character);

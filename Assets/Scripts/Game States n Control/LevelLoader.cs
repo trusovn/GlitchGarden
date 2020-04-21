@@ -23,6 +23,11 @@ public class LevelLoader : ScriptableObject
         SceneManager.LoadScene(startScene);
     }
 
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
     public void QuitApp()
     {
 #if UNITY_EDITOR
