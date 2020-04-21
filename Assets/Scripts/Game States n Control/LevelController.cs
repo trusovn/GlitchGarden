@@ -13,6 +13,8 @@ public class LevelController : MonoBehaviour
     [Tooltip("Win screen animation time")]
     [SerializeField] float winScreenAnimationTime = default;
     [Space]
+    [SerializeField] AudioClip winSound = default;
+    [Space]
     [SerializeField] [Scene] string nextScene = default;
 
     bool gameOver;
@@ -42,6 +44,7 @@ public class LevelController : MonoBehaviour
         FindObjectOfType<AttackerSpawner>().Spawn = false;
         yield return new WaitUntil(() => attackersHolder.Count <= 0);
         ShowWinOverlay();
+        AudioSource.PlayClipAtPoint(winSound, Camera.main.transform.position);
         LeanTween.delayedCall(winScreenTime, () => levelLoader.LoadScene(nextScene));
     }
 

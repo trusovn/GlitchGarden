@@ -50,4 +50,5 @@ MonoBehaviour:
   attackersHolder: {fileID: 11400000, guid: 670affcc3c1ca1749a54fdce99214229, type: 2}
   winScreenTime: 5
   winScreenAnimationTime: 2
+  winSound: {fileID: 8300000, guid: b2f1bd7f9326d4c49a8ac6b5b42d12bb, type: 3}
   nextScene: Start Screen
