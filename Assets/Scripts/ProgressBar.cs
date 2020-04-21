@@ -22,6 +22,6 @@ public class ProgressBar : MonoBehaviour
 
     private void Update()
     {
-        GetComponent<Slider>().value = Time.timeSinceLevelLoad / levelConfiguration.LevelTime;
+        GetComponent<Slider>().value = (levelConfiguration.LevelTime - levelConfiguration.TimeLeft) / levelConfiguration.LevelTime;
     }
 }

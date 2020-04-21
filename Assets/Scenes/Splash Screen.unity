@@ -718,7 +718,7 @@ GameObject:
   - component: {fileID: 1280680042}
   - component: {fileID: 1280680041}
   m_Layer: 0
-  m_Name: Game Controller
+  m_Name: Next Level Loader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -733,7 +733,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1280680040}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d6c1bfa463fb4a4cb9b05df0caab9f1, type: 3}
+  m_Script: {fileID: 11500000, guid: 14c33645892360c4fbd318f9c7f6753b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelLoader: {fileID: 11400000, guid: aa68ac3b4b28d9049babb511db7e9b9e, type: 2}

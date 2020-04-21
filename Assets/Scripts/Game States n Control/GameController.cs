@@ -1,32 +1,16 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
     [SerializeField] LevelLoader levelLoader = default;
+    [SerializeField] LevelConfiguration levelConfiguration = default;
 
-    static bool controllerInitialized;
-
-    void Awake()
+    private void Update()
     {
-        if (controllerInitialized)
+        levelConfiguration.TimeLeft -= Time.deltaTime;
+        if (levelConfiguration.TimeLeft <= 0)
         {
-            gameObject.SetActive(false);
-            Destroy(gameObject);
-            return;
+            levelLoader.LoadGameOver();
         }
-        DontDestroyOnLoad(gameObject);
-        controllerInitialized = true;
-    }
-
-    void Start()
-    {
-        StartCoroutine(LoadStartSceneWithDelay());            
-    }
-
-    IEnumerator LoadStartSceneWithDelay()
-    {
-        yield return new WaitForSeconds(3);
-        levelLoader.LoadStartScene();
     }
 }
