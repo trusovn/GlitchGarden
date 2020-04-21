@@ -20,5 +20,6 @@ public class RangedFighter : DamageDealer
     {
         var projectile = Instantiate(attackProjectile, transform.position + new Vector3(projectileSpawnOffset.x, projectileSpawnOffset.y, 0), Quaternion.identity);
         projectile.GetComponent<Projectile>().DamagePoints = attackPoints;
+        Destroy(projectile, projectile.GetComponent<Projectile>().DisposeTime);
     }
 }
