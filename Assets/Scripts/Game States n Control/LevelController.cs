@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameController : MonoBehaviour
+public class LevelController : MonoBehaviour
 {
     [SerializeField] LevelLoader levelLoader = default;
     [SerializeField] LevelConfiguration levelConfiguration = default;
@@ -39,7 +39,6 @@ public class GameController : MonoBehaviour
     {
         var canvas = FindObjectOfType<Canvas>();
         var winText = Instantiate(winTextPrefab).GetComponent<RectTransform>();
-        //var winText = Instantiate(winTextPrefab, canvas.transform).GetComponent<RectTransform>();
         var fullScale = winText.localScale;
         winText.localScale = Vector3.zero;
         LeanTween.scale(winText, fullScale, winScreenAnimationTime).setEase(LeanTweenType.easeOutBounce);

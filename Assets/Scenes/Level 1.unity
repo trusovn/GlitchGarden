@@ -555,19 +555,8 @@ PrefabInstance:
     - target: {fileID: 6736628814733168488, guid: 7dcc11320ded55f4a8b08d55027f566d,
         type: 3}
       propertyPath: m_Name
-      value: Game Controller
+      value: Level Controller
       objectReference: {fileID: 0}
-    - target: {fileID: 6736628814733168489, guid: 7dcc11320ded55f4a8b08d55027f566d,
-        type: 3}
-      propertyPath: nextScene
-      value: Start Screen
-      objectReference: {fileID: 0}
-    - target: {fileID: 6736628814733168489, guid: 7dcc11320ded55f4a8b08d55027f566d,
-        type: 3}
-      propertyPath: winTextPrefab
-      value: 
-      objectReference: {fileID: 3324046583070880798, guid: b8dfb58a18e42714ea805ebb9bb16f6f,
-        type: 3}
     - target: {fileID: 6736628814733168490, guid: 7dcc11320ded55f4a8b08d55027f566d,
         type: 3}
       propertyPath: m_LocalPosition.x
