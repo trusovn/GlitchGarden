@@ -6,11 +6,17 @@ public class LevelLoader : ScriptableObject
 {
     [SerializeField] [Scene] string startScene = default;
     [SerializeField] [Scene] string gameOverScene = default;
+    [SerializeField] [Scene] string optionsScene = default;
     [SerializeField] [Scene] string firstGameScene = default;
 
     public void LoadGameOver()
     {
         SceneManager.LoadScene(gameOverScene);
+    }
+
+    public void LoadOptionsScene()
+    {
+        SceneManager.LoadScene(optionsScene);
     }
 
     public void LoadGame()
