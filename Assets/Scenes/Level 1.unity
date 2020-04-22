@@ -805,6 +805,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5589289752487591987, guid: be070cefa2612be489f5ff5e9ac24001,
+        type: 3}
+      propertyPath: m_FillCenter
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7574665821945622954, guid: be070cefa2612be489f5ff5e9ac24001,
         type: 3}
       propertyPath: m_AnchorMin.x
