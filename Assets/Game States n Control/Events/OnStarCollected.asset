@@ -9,8 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9897c196259d5b54a8a74b8ae4b1bc62, type: 3}
-  m_Name: Stars Counter
+  m_Script: {fileID: 11500000, guid: afde042156902ab4b9521d2a74eb2466, type: 3}
+  m_Name: OnStarCollected
   m_EditorClassIdentifier: 
-  startStarsCount: 2000
-  onStarsCollected: {fileID: 11400000, guid: 0a913e8691bffc54abab07205ed3df83, type: 2}

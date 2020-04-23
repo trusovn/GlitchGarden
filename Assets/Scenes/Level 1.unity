@@ -127,6 +127,51 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 3272541920893873398}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1916747735 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5589289752588848423, guid: be070cefa2612be489f5ff5e9ac24001,
+    type: 3}
+  m_PrefabInstance: {fileID: 7574665821009271088}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1916747737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916747735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e839e4c12473014b9b3d3faccc0f61d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 0a913e8691bffc54abab07205ed3df83, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1916747738}
+        m_MethodName: UpdateDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1916747738 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7574665822543403349, guid: be070cefa2612be489f5ff5e9ac24001,
+    type: 3}
+  m_PrefabInstance: {fileID: 7574665821009271088}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916747735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f34daf3d4dc58d45beeca25e0942d37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &606170323882108924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -413,6 +458,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Attacker Spawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 3281026418540754116, guid: 1b632d454ce523b42bb00229b7ba0aa0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3281026418540754117, guid: 1b632d454ce523b42bb00229b7ba0aa0,
         type: 3}

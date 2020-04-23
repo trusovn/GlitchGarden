@@ -4,28 +4,37 @@
 public class StarsCounter : ScriptableObject
 {
     [SerializeField] int startStarsCount = 100;
+    [SerializeField] GameEvent onStarsCollected = default;
 
     int starsCount;
 
-    public int StarsCount { get => starsCount; }
+    public int StarsCount
+    {
+        get => starsCount;
+        private set
+        {
+            starsCount = value;
+            onStarsCollected.Raise();
+        }
+    }
 
     private void OnEnable()
     {
-        starsCount = startStarsCount;
+        StarsCount = startStarsCount;
     }
 
     public void AddStars(int amount)
     {
-        starsCount += amount;
+        StarsCount += amount;
     }
 
     public bool SpendStars(int amount)
     {
-        if (amount > starsCount)
+        if (amount > StarsCount)
         {
             return false;
         }
-        starsCount -= amount;
+        StarsCount -= amount;
         return true;
     }
 }
