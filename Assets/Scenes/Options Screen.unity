@@ -560,6 +560,7 @@ GameObject:
   m_Component:
   - component: {fileID: 741015551}
   - component: {fileID: 741015550}
+  - component: {fileID: 741015552}
   m_Layer: 0
   m_Name: Settings Controller
   m_TagString: Untagged
@@ -582,6 +583,8 @@ MonoBehaviour:
   gameSettings: {fileID: 11400000, guid: 2707d7973367edb459ad84d0c2ec4765, type: 2}
   difficulty: {fileID: 613723791}
   soundVolume: {fileID: 788850467}
+  emptyFillColor: {r: 0.17328231, g: 0.6226415, b: 0.21350026, a: 1}
+  fullFillColor: {r: 1, g: 0.1745283, b: 0.1745283, a: 1}
 --- !u!4 &741015551
 Transform:
   m_ObjectHideFlags: 0
@@ -596,6 +599,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &741015552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741015549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e839e4c12473014b9b3d3faccc0f61d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 8d8347a81bc1c6945a48801071cdb92d, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 741015550}
+        m_MethodName: SetFillColors
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &749566381
 GameObject:
   m_ObjectHideFlags: 0
