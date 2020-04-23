@@ -13,6 +13,7 @@ public class SettingsController : MonoBehaviour
 
     void Start()
     {
+        gameSettings.LoadSettings();
         SetSliderValues();
     }
 

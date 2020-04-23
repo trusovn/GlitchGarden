@@ -1116,6 +1116,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1149727779}
     m_Modifications:
+    - target: {fileID: 4262001272505045194, guid: 8b99a1f09149fed4d99f93110014e1e8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262001272505045194, guid: 8b99a1f09149fed4d99f93110014e1e8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262001272505045194, guid: 8b99a1f09149fed4d99f93110014e1e8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262001272505045194, guid: 8b99a1f09149fed4d99f93110014e1e8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 2707d7973367edb459ad84d0c2ec4765,
+        type: 2}
+    - target: {fileID: 4262001272505045194, guid: 8b99a1f09149fed4d99f93110014e1e8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SaveSettings
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262001272505045194, guid: 8b99a1f09149fed4d99f93110014e1e8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4262001272505045196, guid: 8b99a1f09149fed4d99f93110014e1e8,
         type: 3}
       propertyPath: m_Name

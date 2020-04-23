@@ -16,6 +16,7 @@ public class GameSettings : ScriptableObject
         {
             difficultyLevel = value;
             settingsChangedEvent.Raise();
+            SaveSettings();
         }
     }
     public float SoundVolume
@@ -25,14 +26,38 @@ public class GameSettings : ScriptableObject
         {
             soundVolume = value;
             settingsChangedEvent.Raise();
+            SaveSettings();
         }
     }
     public int DefaultDifficulty { get => defaultDifficulty; }
     public float DefaultSoundVolume { get => defaultSoundVolume; }
 
+
+    public void SaveSettings()
+    {
+        PlayerPrefs.SetFloat(PrefTypes.GameDifficulty.Value, difficultyLevel);
+        PlayerPrefs.SetFloat(PrefTypes.SoundVolume.Value, soundVolume);
+        PlayerPrefs.Save();
+    }
+
+    public void LoadSettings()
+    {
+        DifficultyLevel = PlayerPrefs.HasKey(PrefTypes.GameDifficulty.Value) ? PlayerPrefs.GetFloat(PrefTypes.GameDifficulty.Value) : defaultDifficulty;
+        SoundVolume = PlayerPrefs.HasKey(PrefTypes.SoundVolume.Value) ? PlayerPrefs.GetFloat(PrefTypes.SoundVolume.Value) : defaultSoundVolume;
+    }
+
     public void RestoreDefaults()
     {
         DifficultyLevel = defaultDifficulty;
         SoundVolume = defaultSoundVolume;
+    }
+
+    private class PrefTypes
+    {
+        private PrefTypes(string value) { Value = value; }
+        public string Value { get; set; }
+
+        public static PrefTypes SoundVolume { get { return new PrefTypes("SoundVolume"); } }
+        public static PrefTypes GameDifficulty { get { return new PrefTypes("GameDifficulty"); } }
     }
 }
