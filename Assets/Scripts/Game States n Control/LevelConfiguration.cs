@@ -5,6 +5,8 @@ public class LevelConfiguration : ScriptableObject
 {
     [Rename("Level timer, seconds")]
     [SerializeField] float levelTime = default;
+    [SerializeField] int currentDifficulty;
+    [SerializeField] LevelDifficulty[] levelDifficulties;
 
     float timeLeft;
 

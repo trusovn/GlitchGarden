@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97cb50a39c6497545884df2a07030456, type: 3}
+  m_Name: Level 1 Configuration
+  m_EditorClassIdentifier: 
+  levelTime: 10
+  currentDifficulty: 0
+  levelDifficulties:
+  - startStarsCount: 100
+    levelDuration: 30
+    spawnSpeed: 0.2
+    attackerSpawnConfigs:
+    - attackerPrefab: {fileID: 352225863206225634, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
+        type: 3}
+      spawnFirstTime: 0
+      weight: 1
+  - startStarsCount: 75
+    levelDuration: 30
+    spawnSpeed: 0.3
+    attackerSpawnConfigs:
+    - attackerPrefab: {fileID: 352225863206225634, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
+        type: 3}
+      spawnFirstTime: 0
+      weight: 1
+  - startStarsCount: 50
+    levelDuration: 45
+    spawnSpeed: 0.4
+    attackerSpawnConfigs:
+    - attackerPrefab: {fileID: 352225863206225634, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
+        type: 3}
+      spawnFirstTime: 0
+      weight: 1
+  - startStarsCount: 50
+    levelDuration: 45
+    spawnSpeed: 0.5
+    attackerSpawnConfigs:
+    - attackerPrefab: {fileID: 352225863206225634, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
+        type: 3}
+      spawnFirstTime: 0
+      weight: 1
+    - attackerPrefab: {fileID: 2778717574384756797, guid: f56a97a1c03a7d44d9a6e1cef4e7edd1,
+        type: 3}
+      spawnFirstTime: 1
+      weight: 100
+  - startStarsCount: 50
+    levelDuration: 45
+    spawnSpeed: 0.6
+    attackerSpawnConfigs:
+    - attackerPrefab: {fileID: 352225863206225634, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
+        type: 3}
+      spawnFirstTime: 0
+      weight: 3
+    - attackerPrefab: {fileID: 2778717574384756797, guid: f56a97a1c03a7d44d9a6e1cef4e7edd1,
+        type: 3}
+      spawnFirstTime: 0.8
+      weight: 1
