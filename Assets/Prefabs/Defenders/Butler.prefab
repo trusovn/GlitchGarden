@@ -203,6 +203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   starCost: 50
   defenderOffset: {x: -0.13, y: 0.12}
+  canBeJumpedOver: 0
 --- !u!114 &9063557168332927126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,7 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b4da6760567ccb458b48ab076b29e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackPoints: 25
+  attackPoints: 20
   attackAnimationParam: Attacking
   enemyLayerName: Attacker
   attackProjectile: {fileID: 233852541308936236, guid: 9a82a8365c347e2479e41fb19f3969da,

@@ -12,54 +12,83 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97cb50a39c6497545884df2a07030456, type: 3}
   m_Name: Level 1 Configuration
   m_EditorClassIdentifier: 
-  levelTime: 10
-  currentDifficulty: 0
+  levelTime: 60
+  currentDifficulty: 1
   levelDifficulties:
   - startStarsCount: 100
     levelDuration: 30
-    spawnSpeed: 0.2
-    attackerSpawnConfigs:
+    spawnSpeed: 0.1
+    levelAttackers:
+    - attackerPrefab: {fileID: 2778717574384756797, guid: f56a97a1c03a7d44d9a6e1cef4e7edd1,
+        type: 3}
+      spawnTimeWeight:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0.11872707
+          outSlope: 0.11872707
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.30462694
+        - serializedVersion: 3
+          time: 0.7355016
+          value: 0.35934284
+          inSlope: 1.4372149
+          outSlope: 1.4372149
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1.003035
+          value: 0.99764025
+          inSlope: 2.3858612
+          outSlope: 2.3858612
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
     - attackerPrefab: {fileID: 352225863206225634, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
         type: 3}
-      spawnFirstTime: 0
-      weight: 1
-  - startStarsCount: 75
+      spawnTimeWeight:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - startStarsCount: 100
     levelDuration: 30
-    spawnSpeed: 0.3
-    attackerSpawnConfigs:
-    - attackerPrefab: {fileID: 352225863206225634, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
-        type: 3}
-      spawnFirstTime: 0
-      weight: 1
-  - startStarsCount: 50
-    levelDuration: 45
-    spawnSpeed: 0.4
-    attackerSpawnConfigs:
-    - attackerPrefab: {fileID: 352225863206225634, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
-        type: 3}
-      spawnFirstTime: 0
-      weight: 1
-  - startStarsCount: 50
-    levelDuration: 45
-    spawnSpeed: 0.5
-    attackerSpawnConfigs:
-    - attackerPrefab: {fileID: 352225863206225634, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
-        type: 3}
-      spawnFirstTime: 0
-      weight: 1
+    spawnSpeed: 0.2
+    levelAttackers:
     - attackerPrefab: {fileID: 2778717574384756797, guid: f56a97a1c03a7d44d9a6e1cef4e7edd1,
         type: 3}
-      spawnFirstTime: 1
-      weight: 100
-  - startStarsCount: 50
-    levelDuration: 45
-    spawnSpeed: 0.6
-    attackerSpawnConfigs:
-    - attackerPrefab: {fileID: 352225863206225634, guid: 71cd3b8fdfd54c04da0abb865ed0fa47,
-        type: 3}
-      spawnFirstTime: 0
-      weight: 3
-    - attackerPrefab: {fileID: 2778717574384756797, guid: f56a97a1c03a7d44d9a6e1cef4e7edd1,
-        type: 3}
-      spawnFirstTime: 0.8
-      weight: 1
+      spawnTimeWeight:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
